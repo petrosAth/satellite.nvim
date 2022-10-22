@@ -22,7 +22,7 @@ function handler.init()
   })
 end
 
-local SYMBOLS = {'-', '=', '≡'}
+local SYMBOLS = {'', '', ''}
 -- local SYMBOLS = {'⠂', '⠅', '⠇', '⠗', '⠟', '⠿'},
 
 function handler.update(bufnr, winid)
