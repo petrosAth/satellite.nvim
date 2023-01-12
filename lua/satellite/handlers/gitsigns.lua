@@ -36,7 +36,7 @@ function handler.update(bufnr, winid)
       local pos = util.row_to_barpos(winid, lnum-1)
 
       marks[pos] = {
-        symbol = hunk.type == 'delete' and '🭮' or '▌',
+        symbol = hunk.type == 'delete' and '╸' or '┃',
         highlight = hl
       }
     end
